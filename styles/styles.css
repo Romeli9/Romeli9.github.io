@@ -1274,14 +1274,14 @@ img {
   max-width: 246px;
   width: 100%;
 }
-.home {
-  padding: 100px 0;
-}
 .home__listing {
   margin-bottom: 95px;
 }
 .home__offers {
   margin-bottom: 200px;
+}
+.home__doit {
+  margin-top: 150px;
 }
 .tariff__container {
   -webkit-box-sizing: border-box;
