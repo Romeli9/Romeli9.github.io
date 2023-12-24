@@ -1446,6 +1446,11 @@ button {
 .link__icon {
   cursor: pointer;
 }
+.link__reverse {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 .subscribe {
   max-width: 410px;
   width: 100%;
@@ -1620,6 +1625,62 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.upcoming {
+  background-image: url(../assets/images/bg2.png);
+  background-position: 0 0, 0 0;
+  background-size: auto, 100% auto;
+  background-repeat: repeat, repeat-y;
+}
+.upcoming__title {
+  margin-top: 120px;
+}
+.upcoming__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 525px;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 122px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.upcoming__container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  max-width: 1414px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.upcoming__link {
+  -ms-flex-item-align: end;
+      align-self: end;
+  padding: 15px 0px 15px 40px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
 .breadcrumbs {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1697,13 +1758,13 @@ button {
   width: 100%;
 }
 .home__listing {
-  margin-bottom: 95px;
+  margin-top: 64px;
 }
 .home__upcoming {
-  margin-top: 90px;
+  margin-top: 120px;
 }
-.home__offers {
-  margin-bottom: 200px;
+.home__contacts {
+  margin-top: 78px;
 }
 .home__doit {
   margin-top: 150px;
@@ -2421,6 +2482,10 @@ button {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .upcoming__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .breadcrumbs {
     padding-left: 20px;
     padding-right: 20px;
@@ -2573,6 +2638,10 @@ button {
     padding-right: 30px;
   }
   .contacts__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .upcoming__container {
     padding-left: 30px;
     padding-right: 30px;
   }
