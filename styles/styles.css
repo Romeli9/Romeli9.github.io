@@ -2367,6 +2367,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  gap: 44px;
 }
 .page-footer__link {
   position: relative;
@@ -2968,6 +2969,22 @@ button {
   .event__about {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .article-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .article-card__link {
+    width: 708px;
+  }
+  .article-card__title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .article-card__arrow {
+    bottom: 0px;
   }
   .about__container {
     padding-left: 20px;
