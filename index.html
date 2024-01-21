@@ -64,6 +64,7 @@
 
         <p class="main-header__text">
           для людей, горящих сердец и делом
+          <br>
           место для настоящего
         </p>
 
@@ -106,7 +107,7 @@
             </h3>
             <p class="about__text about__text--2">
               И оказываем помощь с организацией, если вам это нужно.
-              Наша цель: вовлечь в культурную жизнь города как можно больше людей,
+              <br>Наша цель: вовлечь в культурную жизнь города как можно больше людей,
               помочь молодым ребятам сделать первые шаги к своей мечте и рассказать всем о том, что их волнует.
             </p>
 
@@ -140,75 +141,82 @@
       <section class="upcoming home__upcoming home__upcoming">
 
 
-        <div class="upcoming__top"></div>
-        <div class="upcoming__container">
+        <div class="tringle tringle-top">
+          <div id="tringl-right-top"></div>
+          <div id="tringl-left-top"></div>
+        </div>
+        <div class="bgc">
+          <div class="upcoming__container">
 
-          <h2 class="listing__title section-title upcoming__title">Мероприятия</h2>
+            <h2 class="listing__title section-title upcoming__title">Мероприятия</h2>
 
-          <section class="listing upcoming__listing">
+            <section class="listing upcoming__listing">
 
-            <!-- prettier-ignore -->
-            <article class="event-card  listing__event-card--i">
-              <a href="#" class="event-card__link">
-                <picture class="event-card__picture">
-                  <img src="assets/images/Nirvana.jpg" alt="nirvana" class="event-card__img" />
-                </picture>
-                <h4 class="event-card__title">Собираемся и слушаем альбом Nirvana.</h4>
-                <p class="event-card__description">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
-                <time datetime="2022-12-07T18:00" class="event-card__time">07.12.2022 | начало 18.00</time>
+              <!-- prettier-ignore -->
+              <article class="event-card  listing__event-card--i">
+                <a href="#" class="event-card__link">
+                  <picture class="event-card__picture">
+                    <img src="assets/images/Nirvana.jpg" alt="nirvana" class="event-card__img" />
+                  </picture>
+                  <h4 class="event-card__title">Собираемся и слушаем альбом Nirvana.</h4>
+                  <p class="event-card__description">Это третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
+                  <time datetime="2022-12-07T18:00" class="event-card__time">07.12.2022 | начало 18.00</time>
+                </a>
+              </article>
+              <article class="event-card  listing__event-card--i">
+                <a href="#" class="event-card__link">
+                  <picture class="event-card__picture">
+                    <img src="assets/images/stuff.png" alt="stuff" class="event-card__img" />
+                  </picture>
+                  <h4 class="event-card__title">Есть тема, нужно обсудить с HowStuffWorks</h4>
+                  <p class="event-card__description">Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.</p>
+                  <time datetime="2022-12-14T18:30" class="event-card__time">14.12.2022 | начало 18.30</time>
+                </a>
+              </article>
+              <article class="event-card  listing__event-card--i">
+                <a href="#" class="event-card__link">
+                  <picture class="event-card__picture">
+                    <img src="assets/images/Sade.png" alt="sade" class="event-card__img" />
+                  </picture>
+                  <h4 class="event-card__title">Вечер | The Best of Sade</h4>
+                  <p class="event-card__description">Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.</p>
+                  <time datetime="2022-12-16T20:00" class="event-card__time">16.12.2022 | начало 20.00</time>
+                </a>
+              </article>
+              <!-- </div> -->
+
+
+
+            </section>
+
+            <div class="upcoming__slider">
+              <a href="#" class="link">
+                <svg class="link__icon link__reverse" width="91" height="60">
+                  <use xlink:href="assets/icons/symbols.svg#link"></use>
+                </svg>
               </a>
-            </article>
-            <article class="event-card  listing__event-card--i">
-              <a href="#" class="event-card__link">
-                <picture class="event-card__picture">
-                  <img src="assets/images/stuff.png" alt="stuff" class="event-card__img" />
-                </picture>
-                <h4 class="event-card__title">Есть тема, нужно обсудить с HowStuffWorks</h4>
-                <p class="event-card__description">Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.</p>
-                <time datetime="2022-12-14T18:30" class="event-card__time">14.12.2022 | начало 18.30</time>
-              </a>
-            </article>
-            <article class="event-card  listing__event-card--i">
-              <a href="#" class="event-card__link">
-                <picture class="event-card__picture">
-                  <img src="assets/images/Sade.png" alt="sade" class="event-card__img" />
-                </picture>
-                <h4 class="event-card__title">Вечер | The Best of Sade</h4>
-                <p class="event-card__description">Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.</p>
-                <time datetime="2022-12-16T20:00" class="event-card__time">16.12.2022 | начало 20.00</time>
-              </a>
-            </article>
-            <!-- </div> -->
 
-
-
-          </section>
-
-          <div class="upcoming__slider">
-            <a href="#" class="link">
-              <svg class="link__icon link__reverse" width="91" height="60">
-                <use xlink:href="assets/icons/symbols.svg#link"></use>
+              <svg class="" width="99" height="2">
+                <use xlink:href="assets/icons/symbols.svg#center">
               </svg>
-            </a>
 
-            <svg class="" width="99" height="2">
-              <use xlink:href="assets/icons/symbols.svg#center">
-            </svg>
+              <a href="#" class="link">
+                <svg class="link__icon" width="91" height="60">
+                  <use xlink:href="assets/icons/symbols.svg#link"></use>
+                </svg>
+              </a>
 
-            <a href="#" class="link">
-              <svg class="link__icon" width="91" height="60">
-                <use xlink:href="assets/icons/symbols.svg#link"></use>
-              </svg>
-            </a>
+            </div>
 
+            <a href="#" class="upcoming__link link">Смотреть все</a>
           </div>
 
-          <a href="#" class="upcoming__link link">Смотреть все</a>
         </div>
 
-
-
-        <div class="upcoming__bot"></div>
+        <div class="tringle tringle-button">
+          <div id="tringl-right-button"></div>
+          <div id="tringl-left-button"></div>
+        </div>
       </section>
       <section class="listing home__listing">
         <h2 class="listing__title section-title">Блог</h2>
