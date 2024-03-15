@@ -48,7 +48,8 @@
             <use xlink:href="assets/icons/symbols.svg#user"></use>
           </svg>
         </a>
-        <button type="button" class="page-header__nav-toggle"></button>
+
+        <button type="button" class="page-header__nav-toggle" id="js-navToggle"></button>
       </div>
     </div>
   </header>
@@ -80,7 +81,7 @@
           </picture>
 
           <div class="event__info">
-            <time class="event__time" datetime="2024-12-16T20:00" data-caption="начало"> 20.00 </time>
+            <time class="event__time" data-caption="начало"> 20.00 </time>
             <div class="event__info-text">Ленина 10 | 2 этаж</div>
           </div>
 
@@ -295,8 +296,8 @@
       <div class="page-footer__bottom">
         <div class="page-footer__docs">
           <span class="page-footer__milenials">© Millennials 2022</span>
-          <span class="page-footer__confidence">Политика конфиденциальности</span>
-          <span class="page-footer__cookies">Cookies</span>
+          <a href="#" class="page-footer__confidence link">Политика конфиденциальности</a>
+          <a href="#" class="page-footer__cookies link">Cookies</a>
         </div>
 
 
@@ -325,11 +326,12 @@
 
 
         <div class="page-footer__tagree">
-          <span class="page-footer__promotion">Создание и продвижение</span>
-          <svg class="page-footer__tagree-icon" width="56" height="17">
-            <use xlink:href="assets/icons/symbols.svg#tagree"></use>
+          <a href="#" class="page-footer__promotion link">Создание и продвижение
+            <svg class="page-footer__tagree-icon" width="56" height="17">
+              <use xlink:href="assets/icons/symbols.svg#tagree"></use>
 
-          </svg>
+            </svg>
+          </a>
         </div>
       </div>
     </div>

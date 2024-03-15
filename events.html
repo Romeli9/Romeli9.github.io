@@ -48,7 +48,8 @@
             <use xlink:href="assets/icons/symbols.svg#user"></use>
           </svg>
         </a>
-        <button type="button" class="page-header__nav-toggle"></button>
+
+        <button type="button" class="page-header__nav-toggle" id="js-navToggle"></button>
       </div>
     </div>
   </header>
@@ -264,8 +265,8 @@
         <div class="offers__container">
           <h3 class="offers__text">Я ХОЧУ:</h3>
           <div class="offers__buttons">
-            <a href="#" class="offers__btn btn btn--red">Провести мероприятие</a>
-            <a href="#" class="offers__btn btn">Стать арендатором</a>
+            <button type="button" class="offers__btn btn btn--red" id="js-eventOpenBtn">Провести мероприятие</button>
+            <button type="button" href="#" class="offers__btn btn">Стать арендатором</button>
           </div>
         </div>
       </div>
@@ -358,8 +359,8 @@
       <div class="page-footer__bottom">
         <div class="page-footer__docs">
           <span class="page-footer__milenials">© Millennials 2022</span>
-          <span class="page-footer__confidence">Политика конфиденциальности</span>
-          <span class="page-footer__cookies">Cookies</span>
+          <a href="#" class="page-footer__confidence link">Политика конфиденциальности</a>
+          <a href="#" class="page-footer__cookies link">Cookies</a>
         </div>
 
 
@@ -388,11 +389,12 @@
 
 
         <div class="page-footer__tagree">
-          <span class="page-footer__promotion">Создание и продвижение</span>
-          <svg class="page-footer__tagree-icon" width="56" height="17">
-            <use xlink:href="assets/icons/symbols.svg#tagree"></use>
+          <a href="#" class="page-footer__promotion link">Создание и продвижение
+            <svg class="page-footer__tagree-icon" width="56" height="17">
+              <use xlink:href="assets/icons/symbols.svg#tagree"></use>
 
-          </svg>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
